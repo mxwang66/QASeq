@@ -1,7 +1,7 @@
 # QASeq
 
 ## Description
-QASeq (quantitative amplicon sequencing) is a PCR-based molecular barcoding NGS workflow, published as an [article](https://doi.org/10.1038/s41467-022-29487-y) on Nature Communications. This code base provides a bioinformatics pipeline for analyzing sequencing data generated with QASeq, with formated tables and figures as outputs. ![](Figures/Fig1.png)
+QASeq (quantitative amplicon sequencing) is a PCR-based molecular barcoding NGS workflow, published as an [article](https://doi.org/10.1038/s41467-022-29487-y) on Nature Communications. This code base provides a bioinformatics pipeline for analyzing sequencing data generated with QASeq, with formatted tables and figures as outputs. ![](Figures/Fig1.png)
 Scheme of QASeq workflow
 
 ## Install (Linux x64 or Mac Intel chip)
