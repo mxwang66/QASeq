@@ -18,7 +18,7 @@ Add the line below to your `.zshrc` or `.bash_profile` (for Mac), or `.bashrc` (
 ```
 export PYTHONPATH=/path/to/the-folder-contains-QASeq
 ```
-Start a new shell and try import the package in Python
+Restart terminal and try to import the package in Python
 ```
 from QASeq import analysis
 ```
