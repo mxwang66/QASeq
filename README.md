@@ -10,17 +10,17 @@ Scheme of QASeq workflow
 
 #### 2. Create a new Conda environment named "qaseq" and install packages needed
 ```
-conda create -n qaseq pysam bowtie2 biopython matplotlib-base seaborn pandas scipy xlrd xlwt openpyxl pytables tqdm jupyterlab --channel conda-forge --channel bioconda --channel defaults --strict-channel-priority
+conda create -n QASeq pysam bowtie2 biopython matplotlib-base seaborn pandas scipy xlrd xlwt openpyxl pytables tqdm jupyterlab --channel conda-forge --channel bioconda --channel defaults --strict-channel-priority
 ```
-
-#### 3. Clone this repository and add to Python PATH
-Add the line below to your `.zshrc` or `.bash_profile` (for Mac), or `.bashrc` (for Linux). The path should point to the directory that contains QASeq. 
+#### 3. Activate the environment
 ```
-export PYTHONPATH=/path/to/the-folder-contains-QASeq
+conda activate QASeq
 ```
-Restart terminal and try to import the package in Python
+#### 4. Clone this repository and install QASeq
 ```
-from QASeq import analysis
+git clone https://github.com/mxwang66/QASeq.git
+cd QASeq
+python -m pip install . --no-deps --no-build-isolation --no-cache-dir
 ```
 
 ## Dependencies
